@@ -1,0 +1,19 @@
+% Assumptions Roundabout Speed Limit 15mph, thus surronding vehicles bounded by 20mph ~9m/s
+% Acceleration bounded between -4.5 to 3 m/s^2
+
+% Case 0
+
+
+% Case 1
+% x = [v_e h_l v_l]'
+A = [0 0 0; -1 0 1; 0 0 0];
+B = [1; 0; 0];
+E = [0; 0; 1];
+
+% Case 2'
+% x = [v_e h_f v_f h]'
+A = [0 0 0 0; 1 0 -1 0; 0 0 0 0; -1 0 0 0];
+B = [1; 0; 0; 0];
+E = [0 
+
+% Case 3
